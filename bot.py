@@ -44,8 +44,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/DeeCodeBots'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/DeCodeSupport'), 
+                         Button.url('📣 UPDATES', 'https://t.me/Clegynstore'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/Cleoosupport'), 
                       ], 
                       [
                         Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
@@ -163,5 +163,5 @@ async def telegraph(client, message):
 
 
 print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @DeCodeSupport")
+print("¯\_(ツ)_/¯ Need Help Join @Cleoosupport")
 client.run_until_disconnected()
