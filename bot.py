@@ -31,7 +31,7 @@ async def start(event):
                          Button.url('⭐SUPPORT', 'https://t.me/cleoosupport'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/{app.username}?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -48,7 +48,7 @@ async def help(event):
                          Button.url('⭐SUPPORT', 'https://t.me/Cleoosupport'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/{app.username}?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
